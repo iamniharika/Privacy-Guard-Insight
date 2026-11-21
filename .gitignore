@@ -1,0 +1,32 @@
+.venv/
+.python311/
+__pycache__/
+pytest-cache-files-*
+.pytest_cache/
+*.pyc
+
+# local secrets / environment
+.env
+.streamlit/secrets.toml
+
+# editor / OS
+.idea/
+.vscode/
+.DS_Store
+
+# local-only repo artifacts
+runs/
+app-origin.py
+AGENTS.md
+requirements-lock.txt
+streamlit.log
+
+# large binary model wheel (downloaded by the setup step, not committed)
+*.whl
+
+# reversible pseudonymization vault / local data
+data/
+
+# Keep synthetic demo datasets in the repository
+!demo_data/
+!demo_data/*.csv
