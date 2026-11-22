@@ -26,7 +26,9 @@ This project addresses these gaps by modeling anonymization as a decision pipeli
 
 ## Live Demo
 
-The hosted app name and URL are managed in Streamlit Community Cloud. Set the deployment name to `privacyguard-ai` when publishing this rebrand.
+Use the hosted demo to try PrivacyGuard AI directly in your browser:
+
+**[Open the PrivacyGuard AI Live Demo](https://privacy-guard-insight-h2r4ydel3bzgrynakava3w.streamlit.app/)**
 
 ## Demo Dataset
 
